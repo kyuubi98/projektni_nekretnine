@@ -23,7 +23,7 @@ if ($agent->uloga == "kupac") {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Ekskluzivne nekretnine</title>
 <meta name="description" content="">
-<meta name="author" content="Satovi Andrejevic">
+<meta name="author" content="Nekretnine Matako">
 
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css" />
@@ -52,7 +52,7 @@ if ($agent->uloga == "kupac") {
                             <a class="nav-link" href="razgledanja.php">Razgledanja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="izmeniRazgledanje.php">Dodaj detalje terminu</a>
+                            <a class="nav-link" href="izmeniRazgledanje.php">Dodaj detalje o terminu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="dodajNekretninu.php">Dodaj nekretninu</a>
