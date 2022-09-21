@@ -6,7 +6,7 @@
                 <a href="index.php" class="navbar-brand scroll-top logo animated bounceInLeft rollIn"><b><i>Ekskluzivne nekratnine</i></b></a></div>
               <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav" id="mainNav">
-                  <li><a href="index.php">Pocetna</a></li>
+                  <li><a href="index.php">Početna</a></li>
                   <li><a href="dodaj.php">Dodavanje</a></li>
                   <li><a href="izbrisiiizmeni.php">Brisanje i izmena</a></li>
                 </ul>

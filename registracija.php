@@ -13,9 +13,9 @@
         $korisnik->sifra = $password;
 
         if ($korisnik->save($mysqli)) {
-            $poruka ="Uspesno ste se registrovali";
+            $poruka ="Uspešno ste se registrovali";
         } else {
-            $poruka ="Neuspesno ste se registrovali";
+            $poruka ="Neuspešno ste se registrovali";
         }
     }
 
@@ -27,7 +27,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Ekskluzivne nekretnine</title>
 <meta name="description" content="">
-<meta name="author" content="Satovi Andrejevic">
+<meta name="author" content="Nekretnine Matako">
 
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css" />

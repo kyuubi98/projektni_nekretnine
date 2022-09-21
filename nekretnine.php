@@ -24,7 +24,7 @@ if ($kupac->uloga == "agent") {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Ekskluzivne nekretnine</title>
 <meta name="description" content="">
-<meta name="author" content="Satovi Andrejevic">
+<meta name="author" content="Nekretnine Matako">
 
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css" />
@@ -53,7 +53,7 @@ if ($kupac->uloga == "agent") {
                             <a class="nav-link" href="porudzbine.php">Razgledanja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="izvestaj.php">Izvestaj</a>
+                            <a class="nav-link" href="izvestaj.php">Izveštaj</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="logout.php">Izloguj se</a>
@@ -96,13 +96,13 @@ if ($kupac->uloga == "agent") {
       <div class="col-lg-12">
         <label for="sortiranje">Sortiraj po ceni</label>
         <select id="sortiranje" class="form-control">
-          <option value="asc">Rastuce po ceni</option>
-          <option value="desc"> Opadajuce po ceni</option>
+          <option value="asc">Rastuće po ceni</option>
+          <option value="desc"> Opadajuće po ceni</option>
         </select>
       </div>
       <div class="col-lg-12">
         <label for="pretrazi"></label>
-        <input type="button" id="pretrazi" style="background-color: #555;" value="Pretrazi" class="form-control btn-primary" onclick="pretrazi()">
+        <input type="button" id="pretrazi" style="background-color: #555;" value="Pretraži" class="form-control btn-primary" onclick="pretrazi()">
        </div>
        <div id="rezultatPretrage"></div>
 
