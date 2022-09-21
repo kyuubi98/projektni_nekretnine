@@ -12,9 +12,9 @@ if(isset($_POST['login'])){
   $korisnik->sifra = $password;
 
   if($korisnik->login($mysqli)){
-    $poruka ="Uspesno ste se ulogovali";
+    $poruka ="Uspešno ste se ulogovali";
   }else{
-    $poruka ="Neuspesno ste se ulogovali, proverite podatke";
+    $poruka ="Neuspešno ste se ulogovali, proverite podatke";
   }
 }
 ?>
@@ -26,7 +26,7 @@ if(isset($_POST['login'])){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Ekskluzivne nekretnine</title>
 <meta name="description" content="">
-<meta name="author" content="Satovi Andrejevic">
+<meta name="author" content="Nekretnine Matako">
 
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css" />
@@ -92,7 +92,7 @@ if(isset($_POST['login'])){
          <form method= "POST" action="">
            <label for="email">Email</label>
            <input type="email" name="email" class="form-control" id="email" name="email">
-           <label for="password">Sifra</label>
+           <label for="password">Šifra</label>
            <input type="password" name="password" class="form-control" id="password" name="password">
            <br>
            <input style="background-color: #868B8E; color: black;" type="submit" name="login" value="Login" class="form-control btn-primary" id="login">
