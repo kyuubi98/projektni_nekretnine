@@ -31,7 +31,7 @@ $nizRazgledanja = $razgledanje->vratiSve($mysqli);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Ekskluzivne nekretnine</title>
 <meta name="description" content="">
-<meta name="author" content="Satovi Andrejevic">
+<meta name="author" content="Nekretnine Matako">
 
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css" />
@@ -60,7 +60,7 @@ $nizRazgledanja = $razgledanje->vratiSve($mysqli);
                             <a class="nav-link" href="razgledanja.php">Razgledanja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="obrisi.php">Obrisi razgledanje</a>
+                            <a class="nav-link" href="obrisi.php">Obriši razgledanje</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="listaNekretnina.php">Nekretnine</a>
